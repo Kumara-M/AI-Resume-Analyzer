@@ -49,3 +49,41 @@ AI-Resume-Analyzer/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+## 🚀 How to Use
+
+Follow these steps to analyze a resume:
+
+1. Open the AI Resume Analyzer application.
+2. Upload your resume in PDF format.
+3. Enter the job description in the text box.
+4. Click the Analyze Resume button.
+5. View the resume similarity score.
+6. Check the matching skills identified in your resume.
+7. Review the potentially missing skills.
+8. View the extracted resume text if needed.
+9. Download the analysis report if the download feature is available.
+
+## 🧠 How It Works
+
+The AI Resume Analyzer works through the following steps:
+
+1. **Resume Upload:** The user uploads a resume in PDF format.
+2. **Text Extraction:** PyPDF2 extracts text from the uploaded PDF.
+3. **Job Description Input:** The user enters the job description they want to compare with the resume.
+4. **Text Processing:** The application processes the resume text and job description.
+5. **Similarity Calculation:** TF-IDF vectorization and cosine similarity estimate how similar the resume text is to the job description.
+6. **Skill Matching:** The application checks the resume and job description against a predefined list of skills.
+7. **Results Display:** The application displays the similarity score, matching skills, and potentially missing skills.
+8. **Report Download:** The user can download the analysis report if the feature is implemented.
+
+## 📊 Results
+
+The application provides:
+
+- Resume and job description similarity score.
+- Matching skills.
+- Potentially missing skills.
+- Extracted resume text.
+- Downloadable analysis report, if supported.
+
+**Note:** The similarity score is an estimate of textual similarity, not an official ATS score or a guarantee of employment.
